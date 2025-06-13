@@ -7,7 +7,6 @@ public class Q17 {
 
         while (i < arr1.length && j < arr2.length) {
             if (arr1[i] == arr2[j]) {
-                // Avoid adding duplicates
                 if (result.isEmpty() || result.get(result.size() - 1) != arr1[i]) {
                     result.add(arr1[i]);
                 }
